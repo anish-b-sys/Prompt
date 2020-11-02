@@ -1,0 +1,80 @@
+body{
+    --main-outline-colour:3px solid white;
+    --hr-colour: white;
+
+}
+
+body {
+    position: relative;
+
+    background-image: url("BGHighSchool.png");
+    background-repeat: no-repeat, repeat;
+    background-position: center;
+
+}
+
+#container{
+    background-color: rgba(0, 0, 0, 0.75);;
+    border-radius: 25px;
+    margin: auto;
+    width: 50%;
+    border: var(--main-outline-colour);
+    padding: 20px;
+    overflow: auto;
+}
+#left{
+    background: black;
+    float: left;
+    width: 25%;
+    border:var(--main-outline-colour);
+    padding: 10px;
+    /*overflow: auto;*/
+}
+
+#right{
+     background: red;
+     margin-left: 25%;
+     width: 72.5%;
+     border: var(--main-outline-colour);
+     padding: 10px;
+    /*overflow: auto;*/
+ }
+#content{
+    align-content: center;
+    padding-right: 15%;
+    padding-left: 15%;
+
+}
+h1{
+    text-align: center;
+    font-size: 50px;
+    color: white;
+}
+hr{
+    color: var(--hr-colour);
+}
+button{
+    background-color: #4CAF50;
+    color: white;
+    padding: 15px 32px;
+    text-align: center;
+    font-size: 24px;
+    cursor: pointer;
+    border-radius: 25px;
+    width: 45%;
+
+}
+
+.actionButton{
+    float: left;
+}
+#returnButton{
+    margin-left: 10%;
+}
+label{
+    color: white;
+    font-size: 24px;
+}
+input, select{
+    font-size: 20px;
+}
